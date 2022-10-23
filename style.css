@@ -213,7 +213,21 @@ footer {
     font-size: 28px;
   }
 
+  ul {
+    display: none;
+  }
 
+  .selection__description {
+    flex-direction: column;
+  }
+
+  .section__description--wrapper {
+    width: 100%;
+  }
+
+  .about__img--wrapper{
+width: 100%;
+  }
 }
   
 
