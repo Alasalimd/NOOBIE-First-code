@@ -74,7 +74,7 @@ li {
 #about,
 #discord,
 #contact 
-footer {
+ {
   padding: 48px 0;
 }
 
@@ -85,6 +85,7 @@ ABOUT
 */
 
 #about {
+  padding: 48px 0;
   background-color: #f8ffdc;
 }
 
@@ -112,8 +113,8 @@ img{
   width: 60%;
 }
 
-.about__img--wrapper
-.section__description--para {
+.about__img--wrapper,
+.section__description--wrapper {
   padding: 0 24px;
 }
 
@@ -138,6 +139,7 @@ Discord
 Contact
 
 */
+
 #contact {
   background-color: #dce9ff;
  }
@@ -171,7 +173,7 @@ footer {
 }
 
 .footer__logo {
-  max-width: 400%;
+  max-width: 480px;
   margin-bottom: 16px;
 }
 
@@ -179,6 +181,6 @@ footer {
   margin-bottom: 32px;
 }
 
-.footer__links {
+.footer__link {
   padding: 0 16px;
 }
