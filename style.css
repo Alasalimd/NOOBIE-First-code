@@ -187,7 +187,7 @@ footer {
 }
 
 /*SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-@media (max-width: 728) {
+@media (max-width: 728px) {
   .row {
     flex-direction: column;
   }
@@ -230,9 +230,24 @@ footer {
 width: 100%;
   }
 
-  .about__img--wrapper {
+  #discord .section__description {
     flex-direction: column-reverse;
   }
-}
-  
 
+  footer {
+    padding: 48px 24px;
+  }
+
+  .footer__logo{
+    max-width: 400px;
+  }
+
+  .footer__link {
+    padding: 0 4px;
+    font-size: 18px;
+  }
+
+  .footer__links {
+    margin-bottom: 24px;
+  }
+}
