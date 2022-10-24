@@ -150,6 +150,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 input, textarea {
@@ -227,6 +228,10 @@ footer {
 
   .about__img--wrapper{
 width: 100%;
+  }
+
+  .about__img--wrapper {
+    flex-direction: column-reverse;
   }
 }
   
